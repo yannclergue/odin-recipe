@@ -1,18 +1,35 @@
 h1, h2 {
     text-align: center;
+    font-family: Trebuchet, sans-serif;
 }
 
 h1 {
     font-size: 30px;
     font-weight: bolder;
+    background-color: rgb(212, 93, 212);
 }
 
 h2 {
     font-family: 27px;
     font-weight: bold;
+    background-color: rgb(66, 117, 66);
 }
 
-p{
+p, ul, ol{
     font-size: 20px;
-    color:lightgrey;
+}
+
+p {
+    color:rgb(80, 80, 80);
+    font-family: Arial, sans-serif;
+}
+
+ul{
+    color: crimson;
+    font-family: Georgia, sans-serif;
+}
+
+ol{
+    color: lightblue;
+    font-family: Verdana, sans-serif;
 }
