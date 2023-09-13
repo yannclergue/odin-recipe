@@ -25,6 +25,11 @@ h2 {
     background-color: rgb(66, 117, 66);
 }
 
+img {
+    display: block;
+    margin: 15px auto;
+}
+
 p, ul, ol{
     font-size: 20px;
 }
@@ -37,12 +42,15 @@ p {
 ul{
     color: crimson;
     font-family: Georgia, sans-serif;
-    text-align: center;
 }
 
-li {
+.ulMain li {
     display: inline-block;
     margin: 0px 10px;
+}
+
+.ulMain {
+    text-align: center;
 }
 
 ol{
