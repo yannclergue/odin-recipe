@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+  }
+  :before, *:after {
+    box-sizing: inherit;
+  }
+
 h1, h2 {
     text-align: center;
     font-family: Trebuchet, sans-serif;
@@ -7,6 +14,9 @@ h1 {
     font-size: 30px;
     font-weight: bolder;
     background-color: rgb(212, 93, 212);
+    padding: 20px;
+    width: 300px;
+    margin: 0px auto;
 }
 
 h2 {
@@ -27,6 +37,12 @@ p {
 ul{
     color: crimson;
     font-family: Georgia, sans-serif;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 10px;
 }
 
 ol{
